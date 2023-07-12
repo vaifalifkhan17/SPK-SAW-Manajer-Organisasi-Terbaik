@@ -1,0 +1,41 @@
+body {
+  background-image: url("../../images/bgfixx.svg");
+  background-position: center;
+  background-size: 100%;
+}
+#auth {
+  height: 100vh;
+  overflow-x: hidden;
+}
+/* #auth #auth-right {
+  height: 200%;
+  background: url(../../images/bglogin2.svg);
+  background-size: auto;
+  background-repeat: no-repeat;
+   linear-gradient(90deg, #2d499d, #3f5491);  
+} */
+
+#auth #auth-left {
+  padding: 5rem 8rem;
+}
+#auth #auth-left .auth-title {
+  font-size: 2.5rem;
+  color: white;
+  margin-bottom: 1rem;
+}
+#auth #auth-left .auth-subtitle {
+  font-size: 1.7rem;
+  line-height: 2.5rem;
+  color: #a8aebb;
+}
+#auth #auth-left .auth-logo {
+  margin-bottom: 7rem;
+}
+#auth #auth-left .auth-logo img {
+  height: 2rem;
+}
+@media screen and (max-width: 767px) {
+  #auth #auth-left {
+    padding: 5rem;
+  }
+}
